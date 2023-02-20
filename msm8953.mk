@@ -142,10 +142,6 @@ PRODUCT_PACKAGES += \
     libqdMetaData.system \
     libtinyxml
 
-# DPM
-PRODUCT_PACKAGES += \
-    libcutils_shim
-
 # DRM
 PRODUCT_PACKAGES += \
     android.hardware.drm-service.clearkey \
@@ -219,7 +215,6 @@ PRODUCT_PACKAGES += \
 
 # IMS
 PRODUCT_PACKAGES += \
-    libgui_shim \
     vendor.qti.hardware.camera.device@1.0
 
 # Input
