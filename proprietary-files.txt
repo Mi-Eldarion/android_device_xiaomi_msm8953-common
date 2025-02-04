@@ -60,7 +60,6 @@ system_ext/framework/audiosphere.jar
 # Bluetooth & FM - from PAN
 vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti|2401640a10df4de23f704b87c4adab2da9ed111d
 vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc|f4ee3b2da2b08647447869ade86ec63f7340accc
-vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so|9bc15c011f125cd34b5e5ab6b472d16c4285b067
 vendor/lib64/hw/vendor.qti.hardware.bluetooth_sar@1.1-impl.so|a97a6c330c932176acee0bce820c6e737778aed4
 vendor/lib64/hw/vendor.qti.hardware.btconfigstore@2.0-impl.so|5a907028e9f5c570e06dfae94d339e6aae523e29
 vendor/lib64/hw/vendor.qti.hardware.fm@1.0-impl.so|2bf5898dd78591104f7e9b154a21f19568f2d76e
@@ -68,6 +67,9 @@ vendor/lib64/libbtnv.so|07e031527e60ce5e62a5017fd1d7ff83ef1aafcf
 vendor/lib64/vendor.qti.hardware.bluetooth_sar@1.0.so|d1443e04e24cb45dd06f5d222b22a699c9e82cb1
 vendor/lib64/vendor.qti.hardware.bluetooth_sar@1.1.so|1671815a79dab0fde9248d0851085ec1ab314f64
 vendor/lib64/vendor.qti.hardware.fm@1.0.so|17e86e9a2054db733d955fcf1066f6e06a44fb21
+
+# Bluetooth
+vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so|1e238b1e84d889f424001f5134f0d2994d13251a
 
 # CACert
 -vendor/app/CACertService/CACertService.apk
@@ -795,6 +797,7 @@ vendor/bin/wcnss_service
 # Misc
 vendor/etc/public.libraries.txt
 vendor/lib64/libqsocket.so
+vendor/lib64/libsoc_helper.so|affbc1cc49d3df3a6e174a21bf3fe79c7130d1c0
 
 # Misc (System)
 system/etc/public.libraries-qti.txt
