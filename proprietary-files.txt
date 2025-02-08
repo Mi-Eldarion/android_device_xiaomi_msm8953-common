@@ -32,23 +32,27 @@ vendor/lib/rfsa/adsp/libscveT2T_skel.so|91b9200dbb982abf0d6b440668252d892a616f66
 # ANT
 vendor/lib64/hw/com.dsi.ant@1.0-impl.so
 
-# Audio - from daisy
-vendor/bin/audioflacapp|a8ae278497715aa53f6fb86d5f5af225da0fc5b0
-vendor/lib/libacdb-fts.so|9fb9fe8f1e22e38e41f1517b8f206a50bbb24419
-vendor/lib/libacdbloader.so|f33941720463b3c8215fc644b7d638c6d8ab74c7
-vendor/lib/libacdbrtac.so|f997dfef5413873af88bd8636a501401e9ea9631
-vendor/lib/libadiertac.so|6cfa3c70f01617a944ed2d8512189400ccdec21e
-vendor/lib/libadm.so|b373d5cb6e4c6e081f1d206f6d9538339f330fda
-vendor/lib/libaudcal.so|8c4d9a610c5cce20dee9721feb4864ea2470caf2
--vendor/lib/libaudio_log_utils.so|7fb2bb0abd10ca763ae5d079a8070e9d3d493bf9
-vendor/lib/libaudioalsa.so|1455df26b622c518c04d7f54746683ed96aaa74f
-vendor/lib/libaudioconfigstore.so|5b4d7d4f6840f65c1c630578fb3611d9ce47e268
-vendor/lib/libaudioparsers.so|4b980c4392b6e800fb23213a0daaa83b35c04051
-vendor/lib/libdrc.so|55fc13d205ce3199de2cf1f9c1dab479909c15be
-vendor/lib/libqtigef.so|fbedb509c61ff1a7d6e9c4a099af346ca781430a
-vendor/lib/libsurround_3mic_proc.so|d8c1d2cb7d598eee79ccfe5b7ec83a185c8fef6c
-vendor/lib/libtinycompress_vendor.so|4991b78d9ed12b828ceeaf61e5cde6328eb944b9
--vendor/lib64/libaudio_log_utils.so|3670ed70e68b209f67852cad81b74d2dda2de3cd
+# Audio - from LA.UM.9.6.2.r1-04200-89xx.0
+vendor/lib/libacdb-fts.so|fee2b1f0b93c28f5ef0a4d65736cca01c4275975
+vendor/lib/libacdbloader.so|1f5867fbd9491eb3dda91d74ab2d8713da243c5a
+vendor/lib/libacdbrtac.so|50f9c46c1ed2758338db567b00e8eee1889ab21a
+vendor/lib/libadiertac.so|5c80bbb7ae8fb329ec4c2518c4e336b010bd57dc
+vendor/lib/libadm.so|a5e6c65b7133440b4550234db4454e4c81627f66
+vendor/lib/libaudcal.so|4fa1da9616f7470caa79f905740daff66922b584
+vendor/lib/libaudioalsa.so|58feb2c5cbc4ac6e23ef4896c87785bed8db3c80
+vendor/lib/libdrc.so|303d67b5bfea162ae994d3817de317258035c42a
+vendor/lib/soundfx/libqcbassboost.so|aee797870096234f1237c6b99819cfceb1a80ecc
+vendor/lib/soundfx/libqcreverb.so|cd884a46419329933c81096ad1eeba46bc0b8a70
+vendor/lib/soundfx/libqcvirt.so|3ed80ebc51ab6c2a56d4e9c29bf119d201a47e65
+vendor/lib64/libacdb-fts.so|ae8275322050d1bd5cebf2cee15864fcf3c87fdf
+vendor/lib64/libacdbloader.so|d32fcac74a11ae0f982b60af13aea0c061383e1b
+vendor/lib64/libacdbrtac.so|547a42e2ed54d13e780fab26134ec0fd90054d4c
+vendor/lib64/libadiertac.so|98a8c2702d4e203689e4a80c69c4b1cf93af1567
+vendor/lib64/libaudcal.so|213bdd87ec3339042796f62605e38690e2500fd6
+vendor/lib64/libaudioalsa.so|534d4dc07fecea0611273c745721b1ed2015a3a3
+vendor/lib/libaudio_log_utils.so|9c10e18c405733e409a6d4f21bc381d2f860582d
+-vendor/lib/libaudioparsers.so|a39f1f6e789547f63b7e2369d73b29876763d68d
+-vendor/lib64/libaudioparsers.so|1463c5ee0f2f040835386d9ccb4a4b010c5bdf58
 
 # Audiosphere
 vendor/lib/soundfx/libasphere.so
